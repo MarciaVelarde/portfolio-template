@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
 
 :root {
-  --primary-color: #3282B8;
-  --primary-color-dark: #0F4C75;
-  --accent-color: #FFF8F0;
+  --primary-color: #B4A3DA;
+  --primary-color-dark: #663A93;
+  --accent-color: #F1F3F4;
 }
 
 html {
@@ -87,8 +87,9 @@ body {
 }
 
 .avatar-container img {
-  height: 700px;
+  height: 500px;
   width: auto;
+  margin-top: 10vh;
 }
 
 .avatar-container h3 {
@@ -115,6 +116,10 @@ h1 {
   text-decoration: none;
   margin-right: 15px;
   color: var(--accent-color);
+}
+
+#about p{
+  text-align: justify;
 }
 
 .text-section {
@@ -144,6 +149,10 @@ h1 {
   margin-bottom: 30px;
 }
 
+.project-list li p{
+  text-align: justify;
+}
+
 .project-link {
   text-decoration: none;
   color: var(--accent-color);
@@ -167,9 +176,10 @@ form {
   background-color: var(--accent-color);
   font: inherit;
   font-size: 1.125rem;
-  padding: .25rem 0;
+  padding: .50rem 0;
   margin-top: 5px;
   margin-bottom: 15px;
+  border-radius: 4px;
 }
 
 .input-field:focus {
