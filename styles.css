@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;400;700;800&display=swap');
 
 :root {
-  --primary-color: #B4A3DA;
+  --primary-color: #9b7ddb;
   --primary-color-dark: #663A93;
   --accent-color: #F1F3F4;
 }
@@ -102,6 +102,7 @@ h1 {
   font-weight: 800;
   color: var(--accent-color);
   text-transform: uppercase;
+  text-shadow: black 0.1em 0.1em 0.2em
 }
 
 .socials {
@@ -139,6 +140,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 800;
   font-size: 40px;
+  text-shadow: rgb(97, 97, 97) 0.1em 0.1em 0.2em
 }
 
 .project-list {
@@ -223,5 +225,66 @@ footer {
   text-decoration: none;
   color: var(--accent-color);
   font-size: 18px;
+}
+
+
+
+
+
+
+
+.social-icons
+{
+  padding-left:0;
+  margin-bottom:0;
+  list-style:none
+}
+
+.social-icons li
+{
+  display:inline-block;
+  margin-bottom:4px
+}
+
+.social-icons a{
+  background-color:#301947;
+  color:#ffffff;
+  font-size:22px;
+  display:inline-block;
+  line-height:44px;
+  width:44px;
+  height:44px;
+  text-align:center;
+  margin-right:8px;
+  border-radius:100%;
+}
+
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+  color:#fff;
+  background-color:#29aafe;
+  transform:scale(1.1); 
+  -webkit-transform:scale(1.1);
+}
+
+.social-icons a.facebook:hover
+{
+  background-color:#0572E6
+}
+.social-icons a.twitter:hover
+{
+  background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+  background-color:#007bb6
+}
+.social-icons a.github:hover
+{
+  background-color:#24292F
+}
+.social-icons a.instagram:hover
+{
+  background-color:#BA34A0
 }
 
